@@ -130,6 +130,29 @@
     inset:0;
     background:linear-gradient(180deg, rgba(21,17,12,0) 88%, var(--ink) 99%);
   }
+  .contact{
+    position:relative;
+    z-index:1;
+    margin-top:56px;
+    padding-top:22px;
+    border-top:1px solid var(--line);
+    font-family:'Space Mono',monospace;
+    font-size:12px;
+    letter-spacing:.22em;
+    text-transform:uppercase;
+    color:var(--muted);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align:center;
+    gap:12px;
+  }
+  .contact a{
+    text-decoration:none;
+    text-transform:none;
+    letter-spacing:.05em;
+    overflow-wrap:anywhere;
+  }
 </style>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -232,6 +255,11 @@
     </article>
 
   </main>
+
+  <footer class="contact">
+    <span>contact</span>
+    <a href="mailto:info@nongsaomusic.com">info@nongsaomusic.com</a>
+  </footer>
 
 </div>
 </body>
